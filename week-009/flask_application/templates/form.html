@@ -1,0 +1,40 @@
+<form action="/form" method = "POST">
+    <p>Field1 <input type = "text" name = "Field1_name" /></p>
+    <p>Field2 <input type = "text" name = "Field2_name" /></p>
+    <p>Field3 <input type = "text" name = "Field3_name" /></p>
+    <p><input type = "submit" value = "submit" /></p>
+</form>
+
+<p>form data:</p>
+<pre>
+request:
+{{ req }}
+
+request.url:
+{{ req.url }}
+
+request.user_agent:
+{{ req.user_agent }}
+
+request.method:
+{{ req.method }}
+
+request.args:
+{{ request.args }}
+
+request.data:
+{{ req.data }}
+
+request.headers:
+{{ req.headers }}
+
+request.cookies:
+{{ req.cookies }}
+
+request.form:
+{{ req.form }}
+
+request.referrer:
+{{ request.referrer }}
+
+</pre>

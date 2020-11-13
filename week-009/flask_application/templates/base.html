@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="{{ url_for('home') }}">home</a></li>
+      <li><a href="{{ url_for('about') }}">about</a></li>
+    </ul>
+  </nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% block content %}{% endblock %}
+    
+     {% include "partials/footer.html" %}
+</section>
+</body>
+
