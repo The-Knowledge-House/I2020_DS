@@ -1,0 +1,9 @@
+<body>
+    <h1>home</h1>
+    <a href="{{ url_for('register') }}">register</a>
+    <br>
+    {% for user in users %}
+        {{user.username}}:{{user.password}}
+        <br>
+    {% endfor %}
+</body>
