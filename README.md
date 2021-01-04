@@ -1,51 +1,77 @@
-# Python Data Science Course
+# Python Data Analysis
 
-## Phase 1 - Learning Python
+## __Phase 2__ _(dates are tentative)_
 
-### Week 1:  
-Class 1 - Learning Basic Terminal Commands, Installing Python, Using Jupyter Notebooks  
-Class 2 - Data Types, Variable Declaration, Strings/String Operations  
-Class 3 - Ints vs. Floats, Math in Python, Casting  
-### Week 2:  
-Class 1 - Data Structures Introduction More on Strings (Indexing/Methods), Lists Indexing  
-Class 2 - List Operations/Methods, Tuples Operations/Methods, `is`/`in`  
-Class 3 - Dictionaries, Sets, Built In Methods
-### Week 3:  
-Class 1 - Control Structures Introduction, Conditionals, `if`/`elif`/`else`  
-Class 2 - For loops, List/dictionary comprehensions  
-Class 3 - For loop continued, While loops, Control Structure keywords (`pass`, `continue`, `break`) 
-### Week 4:  
-Class 1 - Functions: declaring functions, arguments and keyword arguments, scope, nesting.  
-Class 2 - Arbitary number of function arguments, Currying functions, Lambda functions, Decorator functions, Recursion  
-Class 3 - More on decorator functions, More on recursion, Creating processes and algorithms, Big O notation
-### Week 5:  
-Class 1 - More on creating processes and algorithms, Big 0 notation, Sorting introduction  
-Class 2 - More on decorators, recursion, Big 0 notation 
-### Week 6:  
-Class 1 - Objects/classes, class declarations, instances, `self`   
-Class 2 - Creating instances, `__init__` and other 'dunder' methods, getting/setting attributes, Operator overloading, intro to inheritance.  
-Class 3 - More on operator overloading/inheritance, getters/setters with `@property`, `@staticmethod`, `@classmethod`
-### Week 7:
-Class 1 - Files in python, `with` statements, importing from modules  
-Class 2 - Creating modules/libraries, executing modules as scripts  
-Class 3 - Python packages/libraries, handling exceptions with `try`/`except`, `assert`, python's standard library
-### Week 8:
-Class 1 - Raising/throwing errors, generators and iterators, review of HTML/CSS, HTTP requests/responses, `requests`/`BeautifulSoup`  
-Class 2 -  More on `requests` and `BeautifulSoup`, web scraping/crawling  
-Class 3 -  Scraping/crawling with `requests`/`BeautifulSoup`, JSON data in python. 
-### Week 9:
-Class 1 - Logging, How web applications work, Flask/jinja introduction  
-Class 2 - Configuring flask applications, More on jinja templating, Using Git  
-Class 3 - Handling errors with flask, handling request data in flask
-### Week 10:
-Class 1 - Logging, More flask features (responses, cookies, sessions), Databases, SQL, SQLite3  
-Class 2 - More on flask features (message flashing and blueprints), Using SQL in python (SQLite3, SQLAlchemy and Flask-SQLAlchemy)
-Class 3 - NoSQL databases, Differences between NoSQL and SQL, Database concepts (ACID/CRUD)
-### Week 11:
-Class 1 - Linked Lists, Sending post requests with python, REST and GraphQL APIs  
-Class 2 - Stacks, Creating a REST API in python   
-Class 3 - Code along and lab day  
-### Week 12:
-Class 1 - Queues, Authenticating views in flask    
-Class 2 - Binary trees, virtual environments in python, Deploying process for web applications  
-Class 3 - Preparing our web applications for deployment
+__HWs are due the following Monday, Tuesday and Wednesday. No late submissions or resubmissions allowed__  
+__Labs are due the Sunday after given. Resubmissions allowed.__  
+__Projects are due by the date listed. Resubmissions allowed__  
+
+### Week 14 - Statistical Analysis
+__Assignments: HW-1 and Project-1 (due 01/13)__  
+Class 1 - Intro to data science and statistical analysis __[01/04]__  
+Class 2 - Statistical libraries: Numpy and Scipy __[01/05]__  
+Class 3 - Lab __[01/06]__  
+
+### Week 15 - Data Analysis I - 
+__Assignments: HW-2 and Project-2 (due 01/20)__   
+Class 1 - Data analysis and cleanup w/ pandas __[01/11]__  
+Class 2 - Continuation of previous day __[01/12]__  
+Class 3 - Lab __[01/13]__  
+
+### Week 16 - Data Analysis II
+__Assignments: HW-3 and Project-3a (due 01/27)__  
+Class 1 - Data analysis techniques __[01/18]__  
+Class 2 - Data visualizations __[01/19]__   
+Class 3 - Lab __[01/20]__   
+
+### Week 17- Data Analysis III
+__Assignments: HW-3 and Project-3 (due 02/03)__  
+Class 1 - Working with dirty data __[01/25]__   
+Class 2 - Data Structuring and clean up __[01/26]__   
+Class 3 - Lab __[1/27]__  
+
+### Week 18 - Data Visual
+__Assignments: HW-4 and Project-3b (due 02/10)__  
+Class 1 - Data visualization continued __[02/01]__  
+Class 2 - Feeding charts through JSON  __[02/02]__   
+Class 3 - Lab __[02/03]__ 
+
+### Week 19 - Regression Analysis I   
+__Assignments: HW-5 and Project-5 (due 02/24)__  
+Class 1 - Linear regressions __[02/08]__  
+Class 2 - Continuation of previous day __[02/09]__   
+Class 3 - Lab __[02/10]__  
+
+### Week 20 - Regression Analysis II  
+__Assignments: HW-6__  
+Class 1 - Clustering and logarithmic regression  __[02/15]__  
+Class 2 - Intro to neural networks __[02/16]__  
+Class 3 - Lab __[02/17]__  
+
+### Week 21 - Machine Learning I  
+__Assignments: HW-7 and Project-6 (due 03/10)__  
+Class 1 - Machine Learning Fundamentals __[2/22]__   
+Class 2 - Working with regression data for predictive analysis __[2/23]__  
+Class 3 - Lab __[2/24]__  
+
+### Week 22 - Machine Learning II 
+__Assignments: HW-8 and Project 7 (Final Project)__  
+Class 1 - Creating test cases and testing parameters __[3/1]__    
+Class 2 - Continuation of previous day __[3/2]__    
+Class 3 - Lab __[3/3]__    
+
+### Week 23 - Natural Language Processing 
+__Assignments: HW-9 (Take Home Practice Assessment)__  
+Class 1 - Introduction to NLP __[3/8]__   
+Class 2 - NLP for data analysis __[3/9]__  
+Class 3 - Lab __[3/10]__  
+
+### Week 24 - Assessment Week  
+Class 1 - Review __[3/15]__  
+Class 2 - Technical Assessment 2 __[3/16]__  
+Class 3 - Project Development (and make-up day) __[3/17]__  
+
+### Week 25 - Project Week  
+Class 1 - Project development __[3/22]__  
+Class 2 - Project development and practice presentations __[3/23]__    
+Class 3 - Project presentations __[3/24]__    
